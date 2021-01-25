@@ -1,0 +1,80 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: Oswald, sans-serif !important;
+
+}
+
+p{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.title-container{
+    /* background-image: url("./photo.jpg"); */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("./photo.jpg");
+    background-position: 50% 50%;
+    text-transform: uppercase;
+
+}
+
+.title-container h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 11rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: normal;
+
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5rem;
+    position: absolute;
+    top: 22rem;
+}
+
+.option{
+    font-weight: normal;
+
+    background-color: #F2F2F2;
+    widows: 20%;
+    height: 16rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;  
+}
+
+.option h5{
+    text-transform: uppercase;
+    color: #FFCE3E;
+    letter-spacing: 3px;
+}
+
+.about-us{
+    margin-top: 14rem;
+    padding: 0 5rem;
+}
+
+.about-us h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.advantages h4{
+    margin: 0;
+}
+
+.advantage{
+    margin: 1rem;
+}
+
+footer{
+    background-color: #C1C1C1;
+}
