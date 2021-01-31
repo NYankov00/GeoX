@@ -43,11 +43,9 @@
             <div class="about-part">
                 <h1>About</h1>
                 <div class="decorative-line"></div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit excepturi fugiat id cupiditate,
-                    voluptates
-                    illum ipsum error rem facere delectus reiciendis eaque accusantium odit? Facilis animi modi ipsa
-                    accusamus
-                    amet?</p>
+                <p>Ако имате въпроси, моля проверете дали няма да намерите търсената от Вас информация в тази секция.
+                    В случай, че не намерите отговори, не се колебайте да се свържете с нас по всяко време.
+                </p>
 
                 <div class="q-a">
                     <div class="flip-box">
@@ -246,33 +244,37 @@
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.padding = "30px 10px";
-                document.getElementById("logo").style.fontSize = "25px";
-                document.getElementById("navbar").style.height = "6rem";
-                document.getElementById("image").style.width = "13rem";
-                document.getElementById("navbar").style.background = "#060B26";
+            if (screen.width > 750) {
 
-                document.getElementById("opt-1").style.fontSize = "1rem";
-                document.getElementById("opt-2").style.fontSize = "1rem";
-                document.getElementById("opt-3").style.fontSize = "1rem";
-                document.getElementById("opt-4").style.fontSize = "1rem";
-                document.getElementById("phone").style.fontSize = "1rem";
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+
+                    document.getElementById("navbar").style.padding = "30px 10px";
+                    document.getElementById("logo").style.fontSize = "25px";
+                    document.getElementById("navbar").style.height = "6rem";
+                    document.getElementById("image").style.width = "13rem";
+                    document.getElementById("navbar").style.background = "#060B26";
+
+                    document.getElementById("opt-1").style.fontSize = "1rem";
+                    document.getElementById("opt-2").style.fontSize = "1rem";
+                    document.getElementById("opt-3").style.fontSize = "1rem";
+                    document.getElementById("opt-4").style.fontSize = "1rem";
+                    document.getElementById("phone").style.fontSize = "1rem";
 
 
-            } else {
-                document.getElementById("navbar").style.padding = "40px 10px";
-                document.getElementById("navbar").style.background = "transparent";
+                } else {
+                    document.getElementById("navbar").style.padding = "40px 10px";
+                    document.getElementById("navbar").style.background = "transparent";
 
-                document.getElementById("navbar").style.height = "10rem";
-                document.getElementById("image").style.width = "18rem";
+                    document.getElementById("navbar").style.height = "10rem";
+                    document.getElementById("image").style.width = "18rem";
 
-                document.getElementById("opt-1").style.fontSize = "1.3rem";
-                document.getElementById("opt-2").style.fontSize = "1.3rem";
-                document.getElementById("opt-3").style.fontSize = "1.3rem";
-                document.getElementById("opt-4").style.fontSize = "1.3rem";
-                document.getElementById("phone").style.fontSize = "1.3rem";
+                    document.getElementById("opt-1").style.fontSize = "1.3rem";
+                    document.getElementById("opt-2").style.fontSize = "1.3rem";
+                    document.getElementById("opt-3").style.fontSize = "1.3rem";
+                    document.getElementById("opt-4").style.fontSize = "1.3rem";
+                    document.getElementById("phone").style.fontSize = "1.3rem";
 
+                }
             }
         }
     </script>

@@ -39,34 +39,40 @@
 
     <div class="all-contact-info">
         <div class="general-contact-info">
-            <h3>WE'D LOVE TO HEAR FROM YOU.</h3>
+            <h3>Ще се радваме да сте наши клиенти</h3>
             <div class="decorative-line"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur molestias ab eveniet alias? Vel
-                suscipit atque veniam odio cupiditate eos vitae corrupti optio laboriosam eius ex praesentium, magni
-                libero!</p>
+            <p>Ако се интересувате от предоставяните от нас услуги и техните цени, не се колебайте да се свържете с нас
+                на посочения телефон или да направите запитване по имейл.</p>
 
-            <div class="contacts-social-media">
-                <h3>Social media</h3>
+            <div class="useful-links">
+                <h4>Полезни връзки</h4>
                 <div class="decorative-line"></div>
-                <div class="middle">
-                    <a class="btn" href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
+                <ul>
+                    <li> <a href="https://www.cadastre.bg/">Агенция по геодезия, картография и кадастър</a></li>
+                    <li> <a href="https://kais.cadastre.bg/">Кадастрално-административна информационна система</a>
+                    </li>
+                    <li> <a href="https://www.mrrb.bg/"> Министерство на регионалното развитие и благоустройството</a>
+                    </li>
+                    <li> <a href="https://www.sofia-agk.com/">Столична община- Направление "Архитектура и
+                            градоустройство"</a>
+                    </li>
+                    <li> <a href="https://www.sofia.bg/">Столична община</a>
+                    </li>
+                    <li><a href="https://www.dnsk.mrrb.government.bg/UI/Home.aspx?0ZKDwUgLUJrvrWmbKCIuPA%3d%3d">Дирекция
+                            за
+                            национален строителен контрол </a></li>
+                    <li> <a href="https://www.registryagency.bg/bg/">Агенция по вписванията</a>
+                    </li>
 
-                    <a class="btn" href="#">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                </ul>
 
-                </div>
+
             </div>
 
         </div>
 
         <div class="general-contact-info" id="phoneNr-email">
-            <h4>Contact us</h4>
+            <h4>Свържете се с нас</h4>
             <div class="decorative-line"></div>
 
             <div class="phone-email">
@@ -79,8 +85,29 @@
                     <i class="far fa-envelope"></i>
                     food_delivery@gmail.com
                 </i>
+
+                <div class="contacts-social-media">
+                    <h3>Социални мрежи</h3>
+                    <div class="decorative-line"></div>
+                    <div class="middle">
+                        <a class="btn" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a class="btn" href="#">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a class="btn" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+                </div>
+
             </div>
         </div>
+
+
 
 
     </div>
@@ -124,33 +151,37 @@
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.padding = "30px 10px";
-                document.getElementById("logo").style.fontSize = "25px";
-                document.getElementById("navbar").style.height = "6rem";
-                document.getElementById("image").style.width = "13rem";
-                document.getElementById("navbar").style.background = "#060B26";
+            if (screen.width > 750) {
 
-                document.getElementById("opt-1").style.fontSize = "1rem";
-                document.getElementById("opt-2").style.fontSize = "1rem";
-                document.getElementById("opt-3").style.fontSize = "1rem";
-                document.getElementById("opt-4").style.fontSize = "1rem";
-                document.getElementById("phone").style.fontSize = "1rem";
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+
+                    document.getElementById("navbar").style.padding = "30px 10px";
+                    document.getElementById("logo").style.fontSize = "25px";
+                    document.getElementById("navbar").style.height = "6rem";
+                    document.getElementById("image").style.width = "13rem";
+                    document.getElementById("navbar").style.background = "#060B26";
+
+                    document.getElementById("opt-1").style.fontSize = "1rem";
+                    document.getElementById("opt-2").style.fontSize = "1rem";
+                    document.getElementById("opt-3").style.fontSize = "1rem";
+                    document.getElementById("opt-4").style.fontSize = "1rem";
+                    document.getElementById("phone").style.fontSize = "1rem";
 
 
-            } else {
-                document.getElementById("navbar").style.padding = "40px 10px";
-                document.getElementById("navbar").style.background = "transparent";
+                } else {
+                    document.getElementById("navbar").style.padding = "40px 10px";
+                    document.getElementById("navbar").style.background = "transparent";
 
-                document.getElementById("navbar").style.height = "10rem";
-                document.getElementById("image").style.width = "18rem";
+                    document.getElementById("navbar").style.height = "10rem";
+                    document.getElementById("image").style.width = "18rem";
 
-                document.getElementById("opt-1").style.fontSize = "1.3rem";
-                document.getElementById("opt-2").style.fontSize = "1.3rem";
-                document.getElementById("opt-3").style.fontSize = "1.3rem";
-                document.getElementById("opt-4").style.fontSize = "1.3rem";
-                document.getElementById("phone").style.fontSize = "1.3rem";
+                    document.getElementById("opt-1").style.fontSize = "1.3rem";
+                    document.getElementById("opt-2").style.fontSize = "1.3rem";
+                    document.getElementById("opt-3").style.fontSize = "1.3rem";
+                    document.getElementById("opt-4").style.fontSize = "1.3rem";
+                    document.getElementById("phone").style.fontSize = "1.3rem";
 
+                }
             }
         }
     </script>

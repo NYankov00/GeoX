@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>GeoX</title>
 </head>
 
@@ -30,7 +32,7 @@
                 <p>+359 88 888 8888</p>
             </div>
         </div>
-        <h1>Геодезия и екстри</h1>
+        <h1>Геодезия и кадастър</h1>
     </div>
 
     <div class="main-content">
@@ -39,23 +41,15 @@
             <a href="./services.html">
                 <article class="option">
                     <h3>Услуги</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis rem. Labore voluptatem
-                        maiores
-                        optio, esse quos, fugit, voluptates sed sit totam fugiat magni nisi corporis possimus. Adipisci,
-                        quod
-                        tempore?</p>
+                    <p>Научете повече за предоставяните от нас услуги</p>
                     <h5>Инфо</h5>
                 </article>
             </a>
 
             <a href="./Q&A.html">
                 <article class="option">
-                    <h3>Честно задавани въпроси</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis rem. Labore voluptatem
-                        maiores
-                        optio, esse quos, fugit, voluptates sed sit totam fugiat magni nisi corporis possimus. Adipisci,
-                        quod
-                        tempore?</p>
+                    <h3>Често задавани въпроси</h3>
+                    <p>Намерете отговор на Вашите въпроси</p>
                     <h5>Инфо</h5>
                 </article>
             </a>
@@ -63,11 +57,7 @@
             <a href="./contacts.html">
                 <article class="option">
                     <h3>Контакти</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis rem. Labore voluptatem
-                        maiores
-                        optio, esse quos, fugit, voluptates sed sit totam fugiat magni nisi corporis possimus. Adipisci,
-                        quod
-                        tempore?</p>
+                    <p>Свържете се с нас бързо и лесно</p>
                     <h5>Инфо</h5>
                 </article>
             </a>
@@ -80,22 +70,21 @@
 
             <div class="advantages">
                 <article class="advantage">
-                    <i class="fas fa-award"></i>
+                    <i class="fas fa-user-tie"></i>
                     <div class="text">
-                        <h4>Качество</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla enim commodi iusto impedit
-                            ullam, voluptatem reprehenderit amet fuga cupiditate? Possimus perspiciatis voluptates
-                            quaerat pariatur fugiat maiores nobis debitis odit facere!</p>
+                        <h4>Коректност</h4>
+                        <p>Грижим се да подхождаме с лично отношение и коректност при обслужването на всеки наш клиент.
+                        </p>
                     </div>
                 </article>
 
                 <article class="advantage">
-                    <i class="fas fa-user-tie"></i>
+                    <i class="fas fa-award"></i>
                     <div class="text">
-                        <h4>Коректност</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus fuga quaerat doloremque
-                            recusandae, sint labore, quasi eius eum beatae nemo ex magnam quia iste, praesentium vitae?
-                            Sunt mollitia voluptatibus dolorum!</p>
+                        <h4>Качество</h4>
+                        <p>Спечеленото от Вас доверие е от първостепенно значение, поради което се стремим
+                            предоставяните от нас
+                            услуги да отговарят на най- високи стандарти.</p>
                     </div>
                 </article>
 
@@ -103,9 +92,8 @@
                     <i class="far fa-chart-bar"></i>
                     <div class="text">
                         <h4>Резултати</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit autem nisi nostrum et, labore
-                            beatae soluta quibusdam magni placeat tenetur veritatis, cupiditate ullam veniam numquam non
-                            necessitatibus eos ex itaque!</p>
+                        <p>Основната ни цел е да предоставим предлаганите от нас услуги бързо и с отлични резултати.
+                        </p>
                     </div>
                 </article>
             </div>
@@ -188,33 +176,37 @@
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.padding = "30px 10px";
-                document.getElementById("logo").style.fontSize = "25px";
-                document.getElementById("navbar").style.height = "6rem";
-                document.getElementById("image").style.width = "13rem";
-                document.getElementById("navbar").style.background = "#060B26";
+            if (screen.width > 750) {
 
-                document.getElementById("opt-1").style.fontSize = "1rem";
-                document.getElementById("opt-2").style.fontSize = "1rem";
-                document.getElementById("opt-3").style.fontSize = "1rem";
-                document.getElementById("opt-4").style.fontSize = "1rem";
-                document.getElementById("phone").style.fontSize = "1rem";
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+
+                    document.getElementById("navbar").style.padding = "30px 10px";
+                    document.getElementById("logo").style.fontSize = "25px";
+                    document.getElementById("navbar").style.height = "6rem";
+                    document.getElementById("image").style.width = "13rem";
+                    document.getElementById("navbar").style.background = "#060B26";
+
+                    document.getElementById("opt-1").style.fontSize = "1rem";
+                    document.getElementById("opt-2").style.fontSize = "1rem";
+                    document.getElementById("opt-3").style.fontSize = "1rem";
+                    document.getElementById("opt-4").style.fontSize = "1rem";
+                    document.getElementById("phone").style.fontSize = "1rem";
 
 
-            } else {
-                document.getElementById("navbar").style.padding = "40px 10px";
-                document.getElementById("navbar").style.background = "transparent";
+                } else {
+                    document.getElementById("navbar").style.padding = "40px 10px";
+                    document.getElementById("navbar").style.background = "transparent";
 
-                document.getElementById("navbar").style.height = "10rem";
-                document.getElementById("image").style.width = "18rem";
+                    document.getElementById("navbar").style.height = "10rem";
+                    document.getElementById("image").style.width = "18rem";
 
-                document.getElementById("opt-1").style.fontSize = "1.3rem";
-                document.getElementById("opt-2").style.fontSize = "1.3rem";
-                document.getElementById("opt-3").style.fontSize = "1.3rem";
-                document.getElementById("opt-4").style.fontSize = "1.3rem";
-                document.getElementById("phone").style.fontSize = "1.3rem";
+                    document.getElementById("opt-1").style.fontSize = "1.3rem";
+                    document.getElementById("opt-2").style.fontSize = "1.3rem";
+                    document.getElementById("opt-3").style.fontSize = "1.3rem";
+                    document.getElementById("opt-4").style.fontSize = "1.3rem";
+                    document.getElementById("phone").style.fontSize = "1.3rem";
 
+                }
             }
         }
     </script>

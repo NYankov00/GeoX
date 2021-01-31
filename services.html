@@ -16,18 +16,6 @@
     <title>GeoX</title>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $(".hamburger_btn").click(function () {
-                $(this).toggleClass("active");
-                $(".menu").toggleClass("active");
-            });
-        });
-    </script>
-
-
-
 </head>
 
 <body>
@@ -49,7 +37,7 @@
             </div>
         </div>
 
-        <div class="contact-title">
+        <div class="service-title">
             <h1>Услуги</h1>
         </div>
 
@@ -57,77 +45,77 @@
             <div class="zoom">
                 <button id="myBtn" class="service-btns">
                     <h2>Изменение на кадастралната карта и кадастралните регистри </h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/architect.png" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn1" class="service-btns">
                     <h2>Нанасяне на сгради в кадастралната карта и кадастралните регистри </h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/office-building.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn2" class="service-btns">
                     <h2>Нанасяне на самостоятелни обекти в сграда</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/blueprint.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn3" class="service-btns">
                     <h2>Издаване на удостоверения за идентичност</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/passport.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn4" class="service-btns">
                     <h2>Издаване на скици и схеми от АГКК в съответствие с чл. 56 от ЗКИР</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/paper.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn5" class="service-btns">
                     <h2>Изработване на комбинирани скици</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/layers.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn6" class="service-btns">
                     <h2>Изработване на подробни устройствени планове и техни изменения</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/engineer.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn7" class="service-btns">
                     <h2>Геодезическо заснемане </h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/total-station.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn8" class="service-btns">
                     <h2>Трасиране на границите на поземлен имот или УПИ</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/line.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn9" class="service-btns">
                     <h2>Издаване на удостоверение за определяне на площ</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/area.PNG" class="service-icons">
                 </button>
             </div>
 
             <div class="zoom">
-                <button id="myBtn" class="service-btns">
+                <button id="myBtn10" class="service-btns">
                     <h2>Изработване на инвестиционен проект по част Геодезия</h2>
-                    <i class="fas fa-info-circle"></i>
+                    <img src="./css/project.PNG" class="service-icons">
                 </button>
             </div>
 
@@ -144,7 +132,7 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-header">
-                    <span class="close">&times;</span>
+                    <span id="exit" class="close">&times;</span>
                     <h2>Изменение на кадастралната карта и кадастралните регистри </h2>
                 </div>
                 <div class="modal-body">
@@ -178,6 +166,503 @@
             </div>
         </div>
 
+
+
+        <div id="myModal1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit1" class="close">&times;</span>
+                    <h2>Нанасяне на сгради в кадастралната карта и кадастралните регистри</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>При необходимост от отразяване на сграда в кадастралната карта и кадастралните регистри
+                                за въвеждането ѝ в експлоатация, Геоекс изработва проект за нанасяне на сграда.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ, удостоверяващ наличието на вещни права;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от скица на имота;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Разрешение за строеж;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Констативен акт по чл. 176, ал. 1 ЗУТ (приложение № 15) или с акт за приемане
+                                            на конструкцията (приложение № 14) и констативен протокол по чл. 181, ал. 2
+                                            ЗУТ;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Одобрен инвестиционен проект;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal2" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit2" class="close">&times;</span>
+                    <h2>Нанасяне на самостоятелни обекти в сграда</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Ако очертанията на самостоятелен обект са грешно отразени в кадастралната карта или
+                                обектът не е нанесен, Геоекс изработва проект за нанасяне на самостоятелен обект в
+                                сграда.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от одобрен инвестиционен проект;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="myModal3" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit3" class="close">&times;</span>
+                    <h2>Издаване на удостоверения за идентичност</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Геоекс изработва удостоверения за идентичност при наличие на разлики в описанието на
+                                имота Ви с документа за собственост и действащата кадастрална карта.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от всички налични скици за имота;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="myModal4" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit4" class="close">&times;</span>
+                    <h2>Издаване на скици и схеми от АГКК в съответствие с чл. 56 от ЗКИР</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Като правоспособно лице по ЗКИР ГеоЕкс извършва дейности за издаване на скици на
+                                поземлени имоти в
+                                урбанизирана и неурбанизирана територия, характеристики на имоти, скици на сгради и
+                                схеми на самостоятелни
+                                обекти в тях, необходими за изповядване на сделки.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Стари скици (при наличие на такива);</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="myModal5" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit5" class="close">&times;</span>
+                    <h2>Изработване на комбинирани скици</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>При необходимост от съвместяваме на данни от различни планове, одобрени в различни
+                                периоди от време,
+                                Геоекс изработва комбинирани скици за пълна или частична идентичност за имот.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от скица на имота;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от стари скица на имота (при наличие на такива);</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="myModal6" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit6" class="close">&times;</span>
+                    <h2>Изработване на подробни устройствени планове и техни изменения</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Подробните устройствени планове се разделят на:
+                                *План за регулация и застрояване (ПРЗ);
+                                *План за регулация (ПР);
+                                *Парцеларен план в неурбанизирана територия за съоръжение на техническата
+                                инфраструктура;
+                                Целта на изработването на подробни устройствени планове е урегулиране на поземлените
+                                имоти, определяне на тяхното предназначение
+                                и допустимото застрояване в тях.
+                                При изработване и одобряване на подробни устройствени планове се налага изпълнение на
+                                административни процедури в различни администрации-
+                                общинска администрация, ВиК, Електроразпределително дружество, АГКК, РИОСВ, Зелени
+                                системи, Басейнова дирекция и др.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от скица на имота;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="myModal7" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit7" class="close">&times;</span>
+                    <h2>Геодезическо заснемане </h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <h3>Геодезическо заснемане за проектиране</h3>
+                            <p>Геодезическо заснемане на съществуващи огради и сгради, теренни особености, растителност
+                                и други ситуационни и теренни особености в имота.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от скица на имота;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <h3>Геодезическо заснемане за удостоверение за търпимост</h3>
+                            <p>При липса на строителни книжа и документи за законност на една сграда, Геоекс извършва
+                                геодезическо заснемане за удостоверение за търпимост.
+                                За да се удостовери, че сградата е търпима е необходимо да е построена преди
+                                31.03.2001г. и да отговаря на норми за отстояния и височини, посочени в ЗУТ.
+                            </p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от скица на имота;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <h3>Контролно заснемане на фундамент (Протокол № 3)</h3>
+
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Трасировъчен план;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Конструктувни чертежи;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="myModal8" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit8" class="close">&times;</span>
+                    <h2>Трасиране на границите на поземлен имот или УПИ</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Трасирането е точно определяне на границите на даден поземлен имот или УПИ.
+                                Необходимостта от трасиране може да възникне при спор
+                                между съседи за местоположението на ограда, изграждане на такава и други.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Копие от скица на имота;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="myModal9" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit9" class="close">&times;</span>
+                    <h2>Издаване на удостоверение за определяне на площ</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>В случай, че за самостоятелния обект (жилище, магазин, офис, гараж и др.), който
+                                притежавате, липсват данни за площ, Геоекс предлага извършване на
+                                заснемане и определяне на неговата площ. </p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Копие от документ за собственост;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Други налични документи за имота;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal10" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="exit10" class="close">&times;</span>
+                    <h2>Изработване на инвестиционен проект по част Геодезия</h2>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Дейностите по част Геодезия за нуждите на инвестиционното проектиране включват вертикално
+                                планиране, трасировъчен план, картограма на земните маси,
+                                количествена сметка и са съобразени с всички изисквания в Наредба № 4 от 21 май 2001 г.
+                                за обхвата и съдържанието на инвестиционните проекти.
+                                С вертикалната планировка се осигурява достъпа и обслужването да съответната сграда или
+                                съоръжение, определят се стълби, подпорни стени, площадки, алеи,
+                                наклони и местоположението на восоаборни шахти за отводняване на терена. Трасировъчният
+                                план определя местоположението на сградата или съоръжението спрямо имота и
+                                съседни сгради. С картограмата на земните маси се изчисляват изкопните и насипните
+                                дейности.</p>
+                        </li>
+                        <li>
+                            <ul class="needed-documentation">
+                                <h4>Необходими документи за изпълнение на услугата:</h4>
+
+                                <div class="list-docs">
+                                    <li>
+                                        <p>Геодезическо заснемане;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Инвестиционен проект по част Архитектура;</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Виза за проектиране;</p>
+                                    </li>
+
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h5>All Rights Reserved 2020 @Yanitsa</h5>
+                </div>
+            </div>
+        </div>
 
 
     </div>
@@ -220,22 +705,124 @@
 
         // Get the modal
         var modal = document.getElementById("myModal");
+        var modal1 = document.getElementById("myModal1");
+        var modal2 = document.getElementById("myModal2");
+        var modal3 = document.getElementById("myModal3");
+        var modal4 = document.getElementById("myModal4");
+        var modal5 = document.getElementById("myModal5");
+        var modal6 = document.getElementById("myModal6");
+        var modal7 = document.getElementById("myModal7");
+        var modal8 = document.getElementById("myModal8");
+        var modal9 = document.getElementById("myModal9");
+        var modal10 = document.getElementById("myModal10");
+
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
+        var btn1 = document.getElementById("myBtn1");
+        var btn2 = document.getElementById("myBtn2");
+        var btn3 = document.getElementById("myBtn3");
+        var btn4 = document.getElementById("myBtn4");
+        var btn5 = document.getElementById("myBtn5");
+        var btn6 = document.getElementById("myBtn6");
+        var btn7 = document.getElementById("myBtn7");
+        var btn8 = document.getElementById("myBtn8");
+        var btn9 = document.getElementById("myBtn9");
+        var btn10 = document.getElementById("myBtn10");
 
         // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
+        var span = document.getElementById("exit");
+        var span1 = document.getElementById("exit1");
+        var span2 = document.getElementById("exit2");
+        var span3 = document.getElementById("exit3");
+        var span4 = document.getElementById("exit4");
+        var span5 = document.getElementById("exit5");
+        var span6 = document.getElementById("exit6");
+        var span7 = document.getElementById("exit7");
+        var span8 = document.getElementById("exit8");
+        var span9 = document.getElementById("exit9");
+        var span10 = document.getElementById("exit10");
 
         // When the user clicks the button, open the modal 
         btn.onclick = function () {
             modal.style.display = "block";
         }
 
+        btn1.onclick = function () {
+            modal1.style.display = "block";
+        }
+
+        btn2.onclick = function () {
+            modal2.style.display = "block";
+        }
+
+        btn3.onclick = function () {
+            modal3.style.display = "block";
+        }
+
+        btn4.onclick = function () {
+            modal4.style.display = "block";
+        }
+
+        btn5.onclick = function () {
+            modal5.style.display = "block";
+        }
+
+        btn6.onclick = function () {
+            modal6.style.display = "block";
+        }
+
+        btn7.onclick = function () {
+            modal7.style.display = "block";
+        }
+
+        btn8.onclick = function () {
+            modal8.style.display = "block";
+        }
+
+        btn9.onclick = function () {
+            modal9.style.display = "block";
+        }
+
+        btn10.onclick = function () {
+            modal10.style.display = "block";
+        }
+
         // When the user clicks on <span> (x), close the modal
         span.onclick = function () {
             modal.style.display = "none";
         }
+        span1.onclick = function () {
+            modal1.style.display = "none";
+        }
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+        span3.onclick = function () {
+            modal3.style.display = "none";
+        }
+        span4.onclick = function () {
+            modal4.style.display = "none";
+        }
+        span5.onclick = function () {
+            modal5.style.display = "none";
+        }
+        span6.onclick = function () {
+            modal6.style.display = "none";
+        }
+        span7.onclick = function () {
+            modal7.style.display = "none";
+        }
+        span8.onclick = function () {
+            modal8.style.display = "none";
+        }
+        span9.onclick = function () {
+            modal9.style.display = "none";
+        }
+        span10.onclick = function () {
+            modal10.style.display = "none";
+        }
+
 
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
@@ -247,37 +834,42 @@
 
 
 
+
         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.padding = "30px 10px";
-                document.getElementById("logo").style.fontSize = "25px";
-                document.getElementById("navbar").style.height = "6rem";
-                document.getElementById("image").style.width = "13rem";
-                document.getElementById("navbar").style.background = "#060B26";
+            if (screen.width > 750) {
 
-                document.getElementById("opt-1").style.fontSize = "1rem";
-                document.getElementById("opt-2").style.fontSize = "1rem";
-                document.getElementById("opt-3").style.fontSize = "1rem";
-                document.getElementById("opt-4").style.fontSize = "1rem";
-                document.getElementById("phone").style.fontSize = "1rem";
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+
+                    document.getElementById("navbar").style.padding = "30px 10px";
+                    document.getElementById("logo").style.fontSize = "25px";
+                    document.getElementById("navbar").style.height = "6rem";
+                    document.getElementById("image").style.width = "13rem";
+                    document.getElementById("navbar").style.background = "#060B26";
+
+                    document.getElementById("opt-1").style.fontSize = "1rem";
+                    document.getElementById("opt-2").style.fontSize = "1rem";
+                    document.getElementById("opt-3").style.fontSize = "1rem";
+                    document.getElementById("opt-4").style.fontSize = "1rem";
+                    document.getElementById("phone").style.fontSize = "1rem";
 
 
-            } else {
-                document.getElementById("navbar").style.padding = "40px 10px";
-                document.getElementById("navbar").style.background = "transparent";
+                } else {
+                    document.getElementById("navbar").style.padding = "40px 10px";
+                    document.getElementById("navbar").style.background = "transparent";
 
-                document.getElementById("navbar").style.height = "10rem";
-                document.getElementById("image").style.width = "18rem";
+                    document.getElementById("navbar").style.height = "10rem";
+                    document.getElementById("image").style.width = "18rem";
 
-                document.getElementById("opt-1").style.fontSize = "1.3rem";
-                document.getElementById("opt-2").style.fontSize = "1.3rem";
-                document.getElementById("opt-3").style.fontSize = "1.3rem";
-                document.getElementById("opt-4").style.fontSize = "1.3rem";
-                document.getElementById("phone").style.fontSize = "1.3rem";
+                    document.getElementById("opt-1").style.fontSize = "1.3rem";
+                    document.getElementById("opt-2").style.fontSize = "1.3rem";
+                    document.getElementById("opt-3").style.fontSize = "1.3rem";
+                    document.getElementById("opt-4").style.fontSize = "1.3rem";
+                    document.getElementById("phone").style.fontSize = "1.3rem";
 
+                }
             }
         }
     </script>
