@@ -23,7 +23,7 @@ p {
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),
-    url("./css/1.jpg");
+    url("./css/1_cp.jpg ");
   background-position: 50% 50%;
   text-transform: uppercase;
 }
@@ -38,7 +38,7 @@ p {
 
 #image {
   transition: 0.4s;
-  width: 18rem;
+  width: 22rem;
 }
 
 .nav {
@@ -64,7 +64,7 @@ p {
   font-weight: bold;
   font-family: "Lato", sans-serif;
   transition: 0.4s;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .top-container {
@@ -298,7 +298,7 @@ footer {
 }
 
 .contact-title h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   font-family: "Copperplate", Fantasy;
   letter-spacing: 3px;
   padding: 0;
@@ -306,7 +306,7 @@ footer {
 
 .contact-title h2 {
   text-decoration: underline;
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 0 0 2rem 0;
   font-family: "Copperplate", Fantasy;
   margin-left: 2rem;
@@ -762,10 +762,12 @@ footer {
   margin: 0;
   padding: 5%;
   color: white;
+  font-size: 1rem;
 }
 
 .ribbon p {
   margin: 5%;
+  font-size: 0.9rem;
 }
 
 #ribbon {
@@ -782,11 +784,11 @@ footer {
   background-color: #244274;
   display: flex;
   align-items: center;
-  height: 25%;
+  height: 20%;
 }
 
 .bottom .ribbon .ribbon-header {
-  height: 30%;
+  height: 25%;
 }
 
 .questions-top .ribbon{
