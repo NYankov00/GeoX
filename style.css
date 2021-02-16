@@ -99,7 +99,7 @@ p {
   margin-right: 1.3rem;
 }
 
-.phone a{
+.phone a {
   text-decoration: none;
   color: white;
   display: contents;
@@ -260,9 +260,9 @@ footer {
   padding: 0.5rem 0;
 }
 
-.phone-email a{
- text-decoration: none;
- color: black;
+.phone-email a {
+  text-decoration: none;
+  color: black;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
@@ -645,10 +645,6 @@ footer {
   cursor: pointer;
 }
 
-.zoom h2 {
-  font-weight: 100;
-}
-
 .middle {
   text-align: center;
   align-content: start;
@@ -747,6 +743,14 @@ footer {
   margin-top: 5%;
 }
 
+#title-about{
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .ribbon {
   height: auto;
   width: 23%;
@@ -804,37 +808,36 @@ footer {
   height: 25%;
 }
 
-.questions-top .ribbon{
+.questions-top .ribbon {
   padding-bottom: 10%;
 }
 
-#Capa_1{
+#Capa_1 {
   width: 40%;
 }
 
-#Capa_5{
+#Capa_5 {
   width: 45%;
 }
 
-#Capa_3{
+#Capa_3 {
   width: 30%;
 }
 
 @media screen and (max-width: 1200px) {
-
-  .service-icons{
+  .service-icons {
     width: 100%;
   }
-  
-  #Capa_1{
+
+  #Capa_1 {
     width: 70%;
   }
-  
-  #Capa_5{
+
+  #Capa_5 {
     width: 65%;
   }
-  
-  #Capa_3{
+
+  #Capa_3 {
     width: 50%;
   }
 }
@@ -844,28 +847,27 @@ footer {
     height: auto;
   }
 
-  
-  .zoom .service-icons{
+  .zoom .service-icons {
     width: 15%;
   }
-  
-  .zoom #Capa_1{
+
+  .zoom #Capa_1 {
     width: 13%;
   }
-  
-  .zoom #Capa_5{
+
+  .zoom #Capa_5 {
     width: 12%;
   }
 
-  .zoom #Capa_6{
+  .zoom #Capa_6 {
     widows: 10%;
-  } 
-  
-  .zoom #Capa_3{
+  }
+
+  .zoom #Capa_3 {
     width: 15%;
   }
 
-  .all-services button{
+  .all-services button {
     justify-content: center;
     width: 100%;
     padding: 0 10%;
@@ -895,13 +897,13 @@ footer {
     margin: 0;
   }
 
-  #logo{
+  #logo {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  #image{
+  #image {
     width: 90%;
   }
 
@@ -915,26 +917,26 @@ footer {
     margin: 0.5rem;
   }
 
-  #phone p{
+  #phone p {
     margin: 0;
   }
 
-  .main-contacts{
+  .main-contacts {
     margin: 0;
     margin-top: 5%;
     text-align: center;
   }
 
-  .main-contacts i{
-    margin:1% 0 ;
+  .main-contacts i {
+    margin: 1% 0;
   }
 
   .social-media {
     margin: 5% 0 0 0;
   }
 
-  .social-media a{
-margin: 0;
+  .social-media a {
+    margin: 0;
   }
 
   .options,
@@ -1010,70 +1012,64 @@ margin: 0;
   }
 
   .questions-top,
-  .bottom{
+  .bottom {
     flex-direction: column;
   }
 
-  .ribbon{
+  .ribbon {
     width: 100%;
     margin-bottom: 10%;
     padding-bottom: 35%;
-
   }
 
-  .questions-top .ribbon{
+  .questions-top .ribbon {
     padding-bottom: 35%;
   }
 
-  .ribbon .ribbon-header{
+  .ribbon .ribbon-header {
     height: 30%;
   }
 
-  .bottom .ribbon .ribbon-header{
+  .bottom .ribbon .ribbon-header {
     height: 35%;
-
   }
 }
 
 @media screen and (max-width: 650px) {
-
   .modal-body {
-    padding: 1rem ;
+    padding: 1rem;
   }
 
   .needed-documentation {
-   
     margin-left: 1rem;
-}
+  }
 
-.modal-content{
-  width: 90%;
-}
+  .modal-content {
+    width: 90%;
+  }
 
-.zoom .service-icons{
-  width: 30%;
-}
+  .zoom .service-icons {
+    width: 30%;
+  }
 
-.zoom #Capa_1{
-  width: 20%;
-}
+  .zoom #Capa_1 {
+    width: 20%;
+  }
 
-.zoom #Capa_5{
-  width: 20%;
-}
+  .zoom #Capa_5 {
+    width: 20%;
+  }
 
-.zoom #Capa_6{
-  widows: 20%;
-} 
+  .zoom #Capa_6 {
+    widows: 20%;
+  }
 
-.zoom #Capa_3{
-  width: 20%;
-}
-
+  .zoom #Capa_3 {
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-
   #opt-1,
   #opt-2,
   #opt-3,
@@ -1084,15 +1080,11 @@ margin: 0;
   }
 
   .needed-documentation {
-   
     margin-left: 0;
+  }
 }
-  
-}
-
 
 @media screen and (max-width: 450px) {
-
   #opt-1,
   #opt-2,
   #opt-3,
@@ -1104,74 +1096,69 @@ margin: 0;
 
   .list-docs {
     padding-left: 0.5rem;
-}
+  }
 
-.modal-header {
+  .modal-header {
     padding-left: 1rem;
-}
-
-.zoom .service-icons{
-  width: 50%;
-}
-
-.zoom #Capa_1{
-  width: 40%;
-}
-
-.zoom #Capa_5{
-  width: 45%;
-}
-
-.zoom #Capa_3{
-  width: 25%;
-}
-  
-}
-
-
-@media screen and (max-width: 380px) {
-.zoom .service-icons{
-  width: 70%;
-}
-
-.zoom #Capa_1{
-  width: 40%;
-}
-
-.zoom #Capa_5{
-  width: 45%;
-}
-
-.zoom #Capa_3{
-  width: 25%;
-}
-
-.zoom #Capa_6{
-  width: 50%;
-}
-  
-}
-
-
-@media screen and (max-width: 320px) {
-  .zoom .service-icons{
-    width: 90%;
   }
-  
-  .zoom #Capa_1{
-    width: 60%;
+
+  .zoom .service-icons {
+    width: 50%;
   }
-  
-  .zoom #Capa_5{
-    width: 65%;
+
+  .zoom #Capa_1 {
+    width: 40%;
   }
-  
-  .zoom #Capa_3{
+
+  .zoom #Capa_5 {
     width: 45%;
   }
-  
-  .zoom #Capa_6{
+
+  .zoom #Capa_3 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .zoom .service-icons {
     width: 70%;
   }
-    
+
+  .zoom #Capa_1 {
+    width: 40%;
   }
+
+  .zoom #Capa_5 {
+    width: 45%;
+  }
+
+  .zoom #Capa_3 {
+    width: 25%;
+  }
+
+  .zoom #Capa_6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .zoom .service-icons {
+    width: 90%;
+  }
+
+  .zoom #Capa_1 {
+    width: 60%;
+  }
+
+  .zoom #Capa_5 {
+    width: 65%;
+  }
+
+  .zoom #Capa_3 {
+    width: 45%;
+  }
+
+  .zoom #Capa_6 {
+    width: 70%;
+  }
+}
